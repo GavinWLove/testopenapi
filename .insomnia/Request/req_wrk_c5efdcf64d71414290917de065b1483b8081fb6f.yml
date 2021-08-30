@@ -1,0 +1,22 @@
+_id: req_wrk_c5efdcf64d71414290917de065b1483b8081fb6f
+type: Request
+parentId: fld_wrk_c5efdcf64d71414290917de065b1483b1b034c38
+modified: 1630304261206
+created: 1630304261206
+url: "{{ base_url }}/pet/{{ petId }}/uploadImage"
+name: uploads an image
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1630304261206
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
